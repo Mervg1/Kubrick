@@ -47,21 +47,19 @@ class ActorskFragment : Fragment() {
 
     fun createData(): ArrayList<Actor>{
         val acts = ArrayList<Actor>()
-        acts.add(Actor(R.drawable.adrienne_corri,"Adrienne Corri", "1953","Papel del actor"))
-        acts.add(Actor(R.drawable.danny_loyd,"Dany Corri", "1953","Papel del actor"))
-        /*movies.add(Movie(R.drawable.kiss, "Killer's Kiss", "1955", "Davey Gordon (Jamie Smith), a New York City boxer aging out of his profession, meets dancer Gloria Price (Irene Kane), and they begin a romance."))
-        movies.add(Movie(R.drawable.killing, "The Killing", "1956", "Career criminal Johnny Clay (Sterling Hayden) recruits a sharpshooter (Timothy Carey), a crooked police officer (Ted de Corsia), a bartender (Joe Sawyer) and a betting teller named George (Elisha Cook Jr.), among others, for one last job before "))
-        movies.add(Movie(R.drawable.paths, "Paths of Glory", "1957", "General Mireau decides to take on an impossible mission to capture a German post. However, when his men decide to back out from the mission he insults them."))
-        movies.add(Movie(R.drawable.lolita, "Lolita", "1962", "With a screenplay penned by the author himself, Stanley Kubrick brings Vladimir Nabokov's controversial tale of forbidden love to the screen."))
-        movies.add(Movie(R.drawable.strangelove, "Dr. Strangelove", "1964", "An American Brigadier puts the world on the verge of a nuclear catastrophe, when he deploys a B-52 bomber on the Russians, without informing his superiors."))
-        movies.add(Movie(R.drawable.odyssey, "2001: A Space Odyssey", "1968", "The Discovery One and its revolutionary super computer seek a mysterious monolith that first appeared at the dawn of man."))
-        movies.add(Movie(R.drawable.orange, "A Clockwork Orange", "1971", "Alex, a psychopathic delinquent, is imprisoned for murder and rape. In order to reduce his sentence, he volunteers for an experimental therapy conducted by the government, but it goes askew."))
-        movies.add(Movie(R.drawable.barry, "Barry Lyndon", "1975", "Barry, an Irish rogue, gets into a relationship with a rich widow and cheats his way to the top of the 18th-century British society, by assuming the identity of her dead husband."))
-        movies.add(Movie(R.drawable.shinnin, "The Shining", "1980", "Jack and his family move into an isolated hotel with a violent past. Living in isolation, Jack begins to lose his sanity, which affects his family members."))
-        movies.add(Movie(R.drawable.metal, "Full Metal Jack", "1987", "During the Vietnam War, under the ruthless command of Hartman, a few recruits face mental breakdowns. After a bizarre event, the soldiers are left to deal with the war's hellish mayhem."))
-        movies.add(Movie(R.drawable.eyes, "Eyes Wide Shut", "1999", "After Dr. Bill Hartford's (Tom Cruise) wife, Alice (Nicole Kidman), admits to having sexual fantasies about a man she met, Bill becomes obsessed with having a sexual encounter. He discovers an underground sexual group and attends one of their meetings -- and quickly discovers that he is in over his head."))
-
-*/
+        acts.add(Actor(R.drawable.shelley_duvall,"Shelley Duvall", "1980","Wendy Torrence"))
+        acts.add(Actor(R.drawable.danny_loyd,"Dany Corri", "1980","Dany Torrence"))
+        acts.add(Actor(R.drawable.jack_nicholson,"Jack Nicholson", "1980","Jack Torrence"))
+        acts.add(Actor(R.drawable.scatman_crothers,"Scatman Crothers", "1980","Dick Halloran"))
+        acts.add(Actor(R.drawable.malcom_mcdowell,"Malcom McDowell", "1971","Alex DeLarge"))
+        acts.add(Actor(R.drawable.adrienne_corri,"Adrienne Corri", "1971","Señora Alexander"))
+        acts.add(Actor(R.drawable.patrick_magee,"Patrick Magee", "1971","Frank Alexander"))
+        acts.add(Actor(R.drawable.warren_clarke,"Warren Clarke", "1971","El lerdo"))
+        acts.add(Actor(R.drawable.keir_dullea,"Keir Dullea", "1968","David Bowman"))
+        acts.add(Actor(R.drawable.gary_lockwood,"Gary Lockwood", "1968","Frank Poole"))
+        acts.add(Actor(R.drawable.douglas_rain,"Douglas Rain", "1968","HAL 9000"))
+        acts.add(Actor(R.drawable.tom_cruise,"Tom Cruise", "1999","Bill Harford"))
+        acts.add(Actor(R.drawable.nicole_kidman,"Nicole Kidman", "1999","Alice Harford"))
         return acts
     }
 
